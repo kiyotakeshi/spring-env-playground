@@ -1,0 +1,7 @@
+sample:
+  name: test-from-YAML
+  environment: testing
+  enabled: false
+  servers:
+    - www.abc.test.com
+    - www.xyz.test.com
