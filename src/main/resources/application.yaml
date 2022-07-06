@@ -1,5 +1,6 @@
 sample:
   name: test-from-YAML
+  sftp-name: localhost
   environment: testing
   enabled: false
   servers:

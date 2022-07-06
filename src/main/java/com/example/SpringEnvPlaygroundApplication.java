@@ -25,6 +25,7 @@ public class SpringEnvPlaygroundApplication implements CommandLineRunner {
         System.out.println("hello");
         System.out.println("using environment: " + sampleProperties.getEnvironment());
         System.out.println("name: " + sampleProperties.getName());
+        System.out.println("sftp-name: " + sampleProperties.getSftpName());
         System.out.println("enabled:" + sampleProperties.isEnabled());
         System.out.println("servers: " + sampleProperties.getServers());
     }

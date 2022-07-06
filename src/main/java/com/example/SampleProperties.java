@@ -15,6 +15,8 @@ import java.util.List;
 public class SampleProperties {
 
     private String name;
+
+    private String sftpName;
     private String environment;
     private boolean enabled;
     private List<String> servers = new ArrayList<>();
@@ -25,6 +27,14 @@ public class SampleProperties {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getSftpName() {
+        return sftpName;
+    }
+
+    public void setSftpName(String sftpName) {
+        this.sftpName = sftpName;
     }
 
     public String getEnvironment() {
