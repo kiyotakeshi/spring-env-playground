@@ -6,3 +6,4 @@ sample:
   servers:
     - www.abc.test.com
     - www.xyz.test.com
+  username: mike
